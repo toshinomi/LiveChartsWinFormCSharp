@@ -4,3 +4,5 @@ LiveChartsグラフライブラリを使用したC# Windows Formのサンプル�
 
 開発環境：Visual Studio 2019  
 言語：C#
+
+![スクリーンショット](https://github.com/toshinomi/LiveChartsWinFormCSharp/blob/master/LiveChartsWinFormCSharp.png)
