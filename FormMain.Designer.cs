@@ -62,7 +62,7 @@
             this.btnFileSelect.UseVisualStyleBackColor = false;
             this.btnFileSelect.Click += new System.EventHandler(this.OnClickBtnFileSelect);
             // 
-            // Form1
+            // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -71,8 +71,9 @@
             this.Controls.Add(this.btnFileSelect);
             this.Controls.Add(this.image);
             this.Controls.Add(this.chart);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MaximizeBox = false;
+            this.Name = "FormMain";
+            this.Text = "FormMain";
             ((System.ComponentModel.ISupportInitialize)(this.image)).EndInit();
             this.ResumeLayout(false);
 
