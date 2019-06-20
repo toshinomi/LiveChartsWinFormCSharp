@@ -1,3 +1,5 @@
+# LiveChartsWinFormCSharp
+
 # 概要
 LiveChartsグラフライブラリを使用したC# Windows Formのサンプルプログラムです。  
 画像ファイルを読み込み、RGBのヒストグラムを表示しています。
