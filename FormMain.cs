@@ -51,7 +51,7 @@ namespace LiveChartsWinFormCSharp
                 Title = "Histgram"
             };
 
-            for (int nIdx = 0; nIdx < 256; nIdx++)
+            for (int nIdx = 0; nIdx < m_nHistgram.Length; nIdx++)
             {
                 lineSeriesChart.Values.Add(0);
             }
@@ -73,7 +73,7 @@ namespace LiveChartsWinFormCSharp
                 Title = "Histgram"
             };
 
-            for (int nIdx = 0; nIdx < 256; nIdx++)
+            for (int nIdx = 0; nIdx < m_nHistgram.Length; nIdx++)
             {
                 lineSeriesChart.Values.Add(m_nHistgram[nIdx]);
             }
@@ -111,7 +111,7 @@ namespace LiveChartsWinFormCSharp
 
         public void InitHistgram()
         {
-            for (int nIdx = 0; nIdx < 256; nIdx++)
+            for (int nIdx = 0; nIdx < m_nHistgram.Length; nIdx++)
             {
                 m_nHistgram[nIdx] = 0;
             }
